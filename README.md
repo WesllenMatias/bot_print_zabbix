@@ -6,12 +6,13 @@
 pip install -r requirements.txt
 
 ## Segundo crie um arquivo config.py com as variaveis abaixo:
-
+```python
 dash='http://seu_zabbix/zabbix'
 usr='seu_usuário'
 pwd='sua_senha'
 tk = "token do seu bot do telegram"
 alvo = [id do telegram do alvo, separado por virgula se for + de 1]
+```
 
 ## Terceiro tenha instalado em seu servidor o geckodriver:
 
